@@ -1,0 +1,40 @@
+#footer .footer-top{
+	margin-top: 70px;
+}
+#bookings{
+    margin-top: 160px;
+}
+#bookings .search{
+    padding-left: 10px;
+}
+#bookings thead{
+    background-color: #fc9e24;
+    color: #fff;
+    font-weight: 550;
+    font-size: 18px;
+}
+#bookings thead{
+    text-decoration: none;
+}
+#bookings #bookings_info h5{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bookings #bookings_info td{
+    padding: 20px 10px 20px 20px;
+}
+#bookings #bookings_info {
+    margin-top: 50px;
+}
+#bookings #bookings_info table{
+    border: 1px solid rgb(201, 198, 198);
+}
+input[type=text] {
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.search-query:focus, .search-query:active{
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}

@@ -1,0 +1,87 @@
+#footer .footer-top{
+	margin-top: 70px;
+}
+#orders{
+    margin-top: 160px;
+}
+#orders thead{
+    background-color: #fc9e24;
+    color: #fff;
+    font-weight: 550;
+    font-size: 18px;
+}
+#orders #details{
+    text-decoration: none;
+}
+#orders #orders_info h5{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#orders #orders_info td{
+    padding: 20px 10px 20px 20px;
+}
+#orders #orders_info{
+    margin-top: 50px;
+}
+#orders .md-form{
+    border: 0;
+}
+#orders #orders_info table{
+    border: 1px solid rgb(201, 198, 198);
+}
+.details_cost{
+    float: right;
+    color: blueviolet;
+    font-weight: 550;
+}
+.details_item{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#detailsModal .m-header h3{
+    font-family: "Bauer";
+    font-weight: 600;
+    color: black;
+    padding-top: 20px;
+    text-align: center; 
+}
+#detailsModal .m-header .close{
+    outline: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#detailsModal .m-header .close:hover{
+    color: black;
+}
+#detailsModal .modal-body{
+    padding: 30px 20px 40px 20px;
+}
+.order_total{
+    padding-top: 20px;
+    font-weight: 550;
+}
+#orders .search{
+    padding-left: 10px;
+}
+input[type=text] {
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.search-query:focus, .search-query:active{
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#orders_info img{
+    height: 200px;
+    width: 400px;
+}
+#orders_info{
+    overflow: hidden;
+}
+#orders_info .loading{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 38px;
+}

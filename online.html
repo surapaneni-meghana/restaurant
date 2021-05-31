@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <title>Delicious</title>
+
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/online.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-flex align-items-center fixed-top topbar-transparent">
+      <div class="container text-right">
+        <i class="icofont-phone"></i> +91 6304634270
+        <i class="icofont-clock-time icofont-rotate-180"></i> Mon-Sat: 11:00 AM - 23:00 PM
+      </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index1.html"><span>Delicious</span></a></h1>
+      </div>
+      <div id="login-sm" class="d-xl-none d-lg-none">
+        <!--<span class="tooltiptext">Login or Signup here</span>-->
+      </div>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="online.html">Order Online</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        
+            <li id="login-lg" class="d-none d-lg-block d-xl-block">
+            </li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+
+  <div id="bg-img">
+	</div>
+
+  <div id="login-load"></div>
+  <div id="sign-load"></div>
+
+
+  <!-- ======= Items =========== -->
+  
+    <div class="container" data-aos="fade-up">
+      <a href="#" id="icon" class="icon btn" onclick="show_cart();"></a>
+    </div>
+  <section id="order" class="order1">
+    <div class="container" data-aos="fade-up">
+      <!--<div class="section-title">
+        <h2>Order<span> Online</span></h2>
+      </div>-->
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="left-sidebar">
+            <h2>Category</h2>
+            <div class="category-products" data-aos="fade-up" data-aos-delay="100"><!--category-products-->
+              
+                <ul class="nav nav-tabs flex-column" role="tablist">
+                    <li class="nav-item">
+                        <a id="item1" class="nav-link active" role="tab" data-toggle="tab" href="#tab-1" onclick="fun1()">Soups and Salads</a>      
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" role="tab" href="#tab-2" onclick="fun2()">Entremets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-3" onclick="fun3()">Sandwich</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" role="tab" data-toggle="tab" href="#tab-4" onclick="fun4()">Starters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-5" onclick="fun5()">Rice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-6" onclick="fun6()">Breads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-7" onclick="fun7()">Grills (Veg)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-8" onclick="fun8()">Grills (Non-veg)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-9" onclick="fun9()">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-10" onclick="fun10()">Smoothies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-11" onclick="fun11()">Milkshakes</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+             
+        <div class="col-sm-9">
+          
+					<div class="features_items"><!--features_items-->
+            <h2 class="title text-center">Dishes</h2>
+            
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="100">
+              
+                <div class="tab-pane active" role="tabpanel" id="tab-1">
+                </div>
+                <div class="tab-pane" id="tab-1v">
+                </div>
+                <div class="tab-pane" id="tab-2">
+                </div>
+                <div class="tab-pane" id="tab-2v">
+                </div>
+                <div class="tab-pane" id="tab-3">
+                </div>
+                <div class="tab-pane" id="tab-3v">
+                </div>
+                <div class="tab-pane" id="tab-4">
+                </div>
+                <div class="tab-pane" id="tab-4v">
+                </div>
+                <div class="tab-pane" id="tab-5">
+                </div>
+                <div class="tab-pane" id="tab-6">
+                </div>
+                <div class="tab-pane" id="tab-7">
+                </div>
+                <div class="tab-pane" id="tab-8">
+                </div>
+                <div class="tab-pane" id="tab-8v">
+                </div>
+                <div class="tab-pane" id="tab-9">
+                </div>
+                <div class="tab-pane" id="tab-9v">
+                </div>
+                <div class="tab-pane" id="tab-10">
+                </div>
+                <div class="tab-pane" id="tab-11">
+                </div>
+
+                <div id="pagetab">
+                </div>
+
+            </div><!--features_items-->
+          </div>
+        </div>
+    </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+        <div class="container">
+          <h2>Delicious</h2>
+          <p>Count the memories, not the calories</p>
+                <h5>Our Address</h5>
+                <address>
+                  Jubilee Square, Plot No. 1128,<br>
+                  Ground & 1st Floor, Rd Number 36,<br>
+                  Jubilee Hills, Hyderabad, <br>
+                  Telangana 500033<br>
+            </address>
+
+            <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+    </div>
+         
+    <div class="copy-container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+      </div>
+    </div>
+    </footer>
+
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+  <script>
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		var firebaseConfig = {
+		apiKey: "AIzaSyDidmpl3-ZroTqg4KlBynOPukRWtP7yKWQ",
+		authDomain: "restaurant-2b509.firebaseapp.com",
+		databaseURL: "https://restaurant-2b509.firebaseio.com",
+		projectId: "restaurant-2b509",
+		storageBucket: "restaurant-2b509.appspot.com",
+		messagingSenderId: "474239649422",
+		appId: "1:474239649422:web:853032501e442d329cebdf",
+		measurementId: "G-FXDHSTHH98"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+		const db=firebase.firestore();
+  </script>
+  
+  <script>
+    $("#login-load").load("login.txt");
+		$("#sign-load").load("signup.txt");
+  </script>
+
+  <script src="assets/js/main1.js"></script>
+  <script src="assets/js/online.js"></script>
+  <script src="assets/js/login.js"></script>
+
+    <script src="js/price-range.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+ 

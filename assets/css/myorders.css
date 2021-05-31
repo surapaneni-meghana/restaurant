@@ -1,0 +1,89 @@
+#header.header-transparent{
+	background:rgba(26, 24, 22, 0.85);
+}
+
+#topbar.topbar-transparent {
+  background: rgba(26, 24, 22, 0.8);
+}
+#footer .footer-top{
+	margin-top: 10px;
+}
+
+#my_orders{
+    margin-top: 120px;
+}
+#my_orders thead{
+    background-color: #fc9e24;
+    color: #fff;
+    font-weight: 550;
+    font-size: 18px;
+}
+#my_orders p{
+	font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #a4a4a4;
+}
+#my_orders #details{
+    text-decoration: none;
+}
+#my_orders #orders_info h5{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#my_orders #orders_info td{
+    padding: 20px 10px 20px 20px;
+}
+#my_orders #orders_info .red h5{
+    color: red;
+    font-weight: 550;
+}
+#my_orders #orders_info .green h5{
+    color: green;
+    font-weight: 550;
+}
+#my_orders #orders_info{
+    margin-top: 20px;
+}
+#my_orders #orders_info table{
+    border: 1px solid rgb(201, 198, 198);
+}
+.details_cost{
+    float: right;
+    color: blueviolet;
+    font-weight: 550;
+}
+.details_item{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#detailsModal .m-header h3{
+    font-family: "Bauer";
+    font-weight: 600;
+    color: black;
+    padding-top: 20px;
+    text-align: center; 
+}
+#detailsModal .m-header .close{
+    outline: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#detailsModal .m-header .close:hover{
+    color: black;
+}
+#detailsModal .modal-body{
+    padding: 30px 20px 40px 20px;
+}
+#orders_info{
+    overflow: hidden;
+}
+#orders_info .loading{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 38px;
+}
+#orders_info .loading:hover{
+    overflow: hidden;
+}

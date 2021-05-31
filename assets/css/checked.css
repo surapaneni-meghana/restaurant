@@ -1,0 +1,42 @@
+.checked{
+	background-color: #f9f9fb;
+	font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+.checked .container{
+	background-color: #fff;
+	padding-top: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
+}
+.section-title{
+    margin-top: 50px;
+    font-weight: 550;
+}
+.section-title h2{
+    font-size: 40px;
+}
+.sub-title{
+    color: green;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 550;
+}
+.item{
+    color:black;
+    font-size: 22px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.checked #items{
+    color: #ffb03b;;
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+}
+.checked button{
+    margin-top: 20px;
+}

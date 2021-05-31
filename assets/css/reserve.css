@@ -1,0 +1,55 @@
+#footer .footer-top{
+	margin-top: 70px;
+}
+#reserve{
+    margin-top: 160px;
+}
+#reserve thead{
+    background-color: #fc9e24;
+    color: #fff;
+    font-weight: 550;
+    font-size: 18px;
+}
+#reserve #details{
+    text-decoration: none;
+}
+#reserve #reserve_info h5{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#reserve #reserve_info td{
+    padding: 20px 10px 20px 20px;
+}
+#reserve #reserve_info{
+    margin-top: 50px;
+}
+#orders .md-form{
+    border: 0;
+}
+#reserve #reserve_info table{
+    border: 1px solid rgb(201, 198, 198);
+}
+#reserve .search{
+    padding-left: 10px;
+}
+input[type=text] {
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.search-query:focus, .search-query:active{
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#reserve_info img{
+    height: 200px;
+    width: 400px;
+}
+#reserve_info{
+    overflow: hidden;
+}
+#reserve_info .loading{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 38px;
+}

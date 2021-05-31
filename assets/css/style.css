@@ -1,0 +1,246 @@
+/*-- ======= General ======= */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #ffb03b;
+  }
+  
+  a:hover {
+    color: #ffc56e;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Satisfy", sans-serif;
+    color:#ffb03b;
+  }
+
+  /*-- ======= Header ======= */
+#header {
+    height: 70px;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 10px 0;
+    background: rgba(26, 24, 22, 0.85);
+  }
+  #header.header-transparent{
+    background: rgba(26, 24, 22, 0.85);
+  }
+  
+  #header.header-scrolled {
+    top: 0;
+    background: rgba(26, 24, 22, 0.85);
+  }
+  
+  #header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  
+  @media(max-width: 767px){
+    #header .logo h1 {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+    }
+  }
+  
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+/*-- ======= Navigation Menu ======= */
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+  }
+  
+  .nav-menu a {
+    display: block;
+    position: relative;
+    color: white;
+    padding: 9px 15px;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #ffb03b;
+    text-decoration: none;
+  }
+
+/*-- ======= Navigation mobile ======= */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  line-height: 1;
+  text-align: right;
+  outline: none;
+}
+
+.mobile-nav-toggle i {
+  color: #fff;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9999;
+  overflow-y: auto;
+  background: #fff;
+  transition: ease-in-out 0.2s;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.mobile-nav * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-nav a {
+  display: block;
+  position: relative;
+  color: #433f39;
+  padding: 10px 20px;
+  font-weight: 500;
+  outline: none;
+}
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+  color: #ffb03b;
+  text-decoration: none;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+  color: #fff;
+}
+
+/*-- ======= footer ======= */
+
+#footer .footer-top{
+    background: #35322d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 3px solid #37332a;
+    border-bottom: 3px solid #28251f;
+  }
+  
+  #footer .address {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #46423b;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffb03b;
+    position: relative;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p{
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+  }
+  
+  #footer .social-links a:hover{
+      background-color: #ffb03b;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+    padding-top: 10px;
+    background: black;
+    color: #fff;
+    border-bottom: 3px solid #28251f;
+    padding-bottom: 5px;
+  }
+  
+#background .container-fluid{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url("../img/chefs-bg.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+#background .container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background .container-fluid .content{
+    padding: 60px;
+    background-color: #fff;
+}
+#background .content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    font-weight: 550;
+    text-align: center;
+}
+#background .content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <title>Delicious</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/home.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <script>
+    var check=sessionStorage.getItem("restaurant");
+    if(!check){
+        location.href="index1.html";
+    }
+    function logout(){
+      sessionStorage.setItem("restaurant","");
+      location.href="index1.html";
+    }
+  </script>
+</head>
+<body>
+
+  	<!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+      <div class="container d-flex align-items-center">
+
+        <div class="logo mr-auto">
+          <h1 class="text-light"><a href="index.html"><span>Delicious</span></a></h1>
+      </div>
+      
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="reserve.html">Reservations</a></li>
+            <li><a href="add.html">Add Items</a></li>
+            <li id="logout" class="logout"><a href="#"><i class="icofont-logout" onclick="logout();">logout</i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="background">
+        <div class="container-fluid">
+          <div class="content">
+            <h1>WELCOME </h1>
+            <div><h3>TEAM DELICIOUS</h3></div>
+          </div>
+        </div>
+    </section>
+
+    	<!-- ======= Footer ======= -->
+      <footer id="footer" class="footer">
+        <div class="footer-top">
+            <div class="container">
+              <h2>Delicious</h2>
+              <p>Count the memories, not the calories</p>
+                    <h5>Our Address</h5>
+                    <address>
+                      Jubilee Square, Plot No. 1128,<br>
+                      Ground & 1st Floor, Rd Number 36,<br>
+                      Jubilee Hills, Hyderabad, <br>
+                      Telangana 500033<br>
+                </address>
+
+                <div class="social-links">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+        </div>
+            
+        <div class="copy-container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+          </div>
+        </div>
+      </footer>
+        
+
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+	
+	  
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+    <script>
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		var firebaseConfig = {
+			apiKey: "AIzaSyDidmpl3-ZroTqg4KlBynOPukRWtP7yKWQ",
+			authDomain: "restaurant-2b509.firebaseapp.com",
+			databaseURL: "https://restaurant-2b509.firebaseio.com",
+			projectId: "restaurant-2b509",
+			storageBucket: "restaurant-2b509.appspot.com",
+			messagingSenderId: "474239649422",
+			appId: "1:474239649422:web:853032501e442d329cebdf",
+			measurementId: "G-FXDHSTHH98"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+		const db=firebase.firestore();
+  </script>
+  
+	<script src="assets/js/main1.js"></script>
+	  
+</body>
+</html>
