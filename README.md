@@ -1,2 +1,2 @@
 # restaurant
-A web-baseed restaurant application to manage a particular restaurant(Delicious).
+A web-based restaurant application to manage a particular restaurant(Delicious).
